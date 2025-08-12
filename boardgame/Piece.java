@@ -11,9 +11,4 @@ public class Piece {
     protected Board getBoard() {
         return board;
     }
-
-    @Override
-    public String toString() {
-        return "Piece [position=" + position + ", board=" + board + "]";
-    }
 }
